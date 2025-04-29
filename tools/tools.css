@@ -179,6 +179,73 @@ ul li a {
 
 /* main//////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+.tools {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolschild {
+    padding-top: 100px !important;
+    width: 60%;
+    height: 30vh;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.toolschild h1 {
+    font-weight: 100;
+    font-size: 50px;
+    color: #0C3C60;
+
+}
+
+.toolschild p {
+    text-align: center;
+    color: #0C3C60;
+}
+
+.schedule {
+    padding-top: 50px !important;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.schedule p {
+    margin-bottom: 30px !important;
+    color: #0C3C60;
+}
+.topnav {
+    align-self: flex-end;
+
+}
+
+.topnav .search  {
+    align-self: flex-end;
+    float: right;
+    padding: 6px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+    margin-right: 350px !important;
+    font-size: 17px;
+  
+}
+.linus {
+    margin-top: ;
+    align-self: flex-end;
+    width: 50%;
+    height: 1px;
+    background-color: #0C3C60;
+    margin-bottom: 100px !important;
+}
+
 /* ////////////////////////////////////////////////contact */
 
 .contact {
