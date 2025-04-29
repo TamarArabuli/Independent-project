@@ -1,0 +1,39 @@
+
+
+@media screen and (max-width:600px){ 
+    .two2 {
+
+        display: none;
+
+    }
+
+    .final {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    
+    .one1 {
+        height: auto !important;
+        margin-top: 50px !important;
+        margin-left: 50px !important;
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    .three3 {
+        height: auto !important;
+        width: 100%;
+        align-self: flex-start !important;
+        gap: 5px;
+        margin-left: 50px !important;
+    }
+
+    .three3 h3 {
+        padding-bottom: 5px !important;
+    }
+
+    .three3 .texts {
+            width: 100%;
+            margin-top: 5px !important;
+    }
+}
