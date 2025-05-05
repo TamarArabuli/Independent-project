@@ -184,6 +184,8 @@ ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
+    height: 200vh;
 }
 
 .toolschild {
@@ -223,6 +225,8 @@ ul li a {
 }
 .topnav {
     align-self: flex-end;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -238,13 +242,185 @@ ul li a {
   
 }
 .linus {
-    margin-top: ;
     align-self: flex-end;
     width: 50%;
     height: 1px;
     background-color: #0C3C60;
     margin-bottom: 100px !important;
 }
+
+.firstline {
+    display: flex;
+   border-bottom: 1px solid gray;
+
+
+}
+.firstfirst {
+    display: flex;
+    gap: 120px !important;
+    width: 50%;
+    /* align-items: center; */
+}
+
+.firstfirst input {
+    width: 20px;
+    border-radius: 0;
+}
+
+.firstsecond {
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.secondline {
+    display: flex;
+    margin-top: 30px !important;
+    border-bottom: 1px solid gray;
+}
+
+.second {
+    width: 20px;
+}
+.secondfirst {
+    width: 50%;
+    display: flex;
+    gap: 40px;
+}
+
+.secondfirst img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.secondsecond {
+    display: flex;
+    width: 50%;
+    gap: 65px;
+}
+
+.thirdline{
+    display: flex;
+    margin-top: 30px !important;
+    border-bottom: 1px solid gray;
+}
+
+.thirdfirst {
+    width: 50%;
+    display: flex;
+    gap: 40px;
+}
+
+.thirdfirst img {
+    width: 40px;
+    height: 40px;
+}
+
+.thirdfirst input {
+    width: 20px;
+}
+
+.thirdsecond {
+    display: flex;
+    width: 50%;
+    gap: 65px;
+}
+
+
+@media screen and (max-width:1400px) {
+  
+    .topnav .search  {
+        margin-right: 200px !important;
+    }
+
+    
+}
+
+@media screen and (max-width:1200px) {
+
+
+    .schedule {
+        /* width: 100%; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .schedule p {
+        align-self: flex-start;
+    }
+    .topnav .search  {
+        margin-right: 100px !important;
+    }
+
+    .firstline { 
+        flex-direction: column;
+        width: 100%;
+        gap: 70px;
+    }
+
+    .firstfirst {
+        width: 100%;
+        gap:10px;
+    }
+    
+    .firstsecond {
+        width: 100%;
+        gap:10px;
+
+    }
+
+    .secondline {
+        flex-direction: column;
+        width: 100%;
+        gap: 70px;
+
+    }
+
+    .secondfirst{
+        width: 100%;
+    }
+
+    .secondsecond {
+        width: 100%;
+    }
+
+    .thirdline {
+        flex-direction: column;
+        width: 100%;
+        gap: 70px;
+    }
+
+    .thirdfirst {
+        width: 100%;
+    }
+
+    .thirdsecond{
+        width: 100%;
+    }
+    
+
+}
+
+@media screen and (max-width:700px)
+{
+    .topnav .search  {
+        margin-right: 0px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ////////////////////////////////////////////////contact */
 
