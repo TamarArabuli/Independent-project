@@ -407,6 +407,7 @@ ul li a {
 
 
 .contact {
+    padding: 20px 0 !important;
     width: 100% !important;
     height: 120vh;
     display: flex;
@@ -498,6 +499,7 @@ ul li a {
 
 .mapp {
     width: 800px;
+    height: 300px;
     margin-bottom: 20px;
 }
 
