@@ -368,6 +368,7 @@ ul li a {
     color: white;
 }
 .inputs {
+    outline: none;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
